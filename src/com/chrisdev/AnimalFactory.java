@@ -1,7 +1,7 @@
 package com.chrisdev;
 
-public class AnimalFactory {
-    public static Animal create(String animalType) {
+class AnimalFactory {
+    static Animal create(String animalType) {
         switch (animalType) {
             case "rabbit": return new RabbitAnimal();
             case "dog": return new DogAnimal();

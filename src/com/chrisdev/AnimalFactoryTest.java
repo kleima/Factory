@@ -1,6 +1,6 @@
 package com.chrisdev;
 
-public class AnimalFactoryTest {
+class AnimalFactoryTest {
 
     public static void main(String[] args) {
 	   Animal rabbit = AnimalFactory.create("rabbit");
